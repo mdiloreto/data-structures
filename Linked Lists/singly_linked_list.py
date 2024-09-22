@@ -1,16 +1,14 @@
 class Node:
     """
     An object for storing a single node in a linked list
-
     Attributes:
         data: Data stored in node
         next_node: Reference to next node in linked list
     """
-
     def __init__(self, data, next_node = None):
         self.data = data
         self.next_node = next_node
-
+        
     def __repr__(self):
         return "<Node data: %s>" % self.data
 
